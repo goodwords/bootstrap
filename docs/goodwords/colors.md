@@ -6,29 +6,25 @@ group: goodwords
 
 ## Brand colors
 
-<style>
-    .color-swatch { width:100%; height:200px; display:block; } 
-</style>
-
 <div class="row m-t-md">
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#FF6680;"></div>
+        <div class="color-sample m-b" style="background:#FF6680;"></div>
         <code>#FF6680</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#FFBEC8;"></div>
+        <div class="color-sample m-b" style="background:#FFBEC8;"></div>
         <code>#FFBEC8</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#01C8C8;"></div>
+        <div class="color-sample m-b" style="background:#01C8C8;"></div>
         <code>#01C8C8</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#96E8E8;"></div>
+        <div class="color-sample m-b" style="background:#96E8E8;"></div>
         <code>#96E8E8</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#A5FFE6;"></div>
+        <div class="color-sample m-b" style="background:#A5FFE6;"></div>
         <code>#A5FFE6</code>
     </div>
 </div>
@@ -40,31 +36,31 @@ These colors were used in new Candidate app and new Provider part at Goodwords R
 
 <div class="row m-t-md">
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#FF6680;"></div>
+        <div class="color-sample m-b" style="background:#FF6680;"></div>
         <code>#FF6680</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#01C8C8;"></div>
+        <div class="color-sample m-b" style="background:#01C8C8;"></div>
         <code>#01C8C8</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#96E8E8;"></div>
+        <div class="color-sample m-b" style="background:#96E8E8;"></div>
         <code>#96E8E8</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#1E9600;"></div>
+        <div class="color-sample m-b" style="background:#1E9600;"></div>
         <code>#1E9600</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#004DB6;"></div>
+        <div class="color-sample m-b" style="background:#004DB6;"></div>
         <code>#004DB6</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#EDF5FD;"></div>
+        <div class="color-sample m-b" style="background:#EDF5FD;"></div>
         <code>#EDF5FD</code>
     </div>
     <div class="col-sm-6 col-lg-4 col-xl-3 text-center m-b-md">
-        <div class="color-swatch m-b" style="background:#FDFAC5;"></div>
+        <div class="color-sample m-b" style="background:#FDFAC5;"></div>
         <code>#FDFAC5</code>
     </div>
 </div>
