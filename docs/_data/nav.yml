@@ -50,18 +50,25 @@
     - title: Carousel
     - title: Utilities
 
+- title: Migration
+
+- title: Goodwords
+  pages:
+    - title: Colors
+
+
+
+
 # - title: Extend
 #   pages:
 #     - title: Approach
 #     - title: Icon fonts
 
-- title: About
-  pages:
-    - title: History
-    - title: Team
-    - title: Accessibility
-    - title: Brand
-    - title: License
-    - title: Translations
-
-- title: Migration
+# - title: About
+#   pages:
+#     - title: History
+#     - title: Team
+#     - title: Accessibility
+#     - title: Brand
+#     - title: License
+#     - title: Translations
