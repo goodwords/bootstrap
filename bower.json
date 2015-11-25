@@ -16,7 +16,8 @@
     "Gruntfile.js",
     "Gemfile",
     "Gemfile.lock",
-    "grunt"
+    "grunt",
+    "dist"
   ],
   "dependencies": {
     "jquery": "1.9.1 - 2"

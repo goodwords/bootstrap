@@ -54,3 +54,10 @@ docs/.jekyll-metadata
 # Folders to ignore
 bower_components
 node_modules
+
+
+
+
+# Do not publish /dist/ to Git
+dist
+docs/assets/css/docs-styleguide*

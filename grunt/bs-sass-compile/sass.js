@@ -16,6 +16,7 @@ module.exports = function configureRubySass(grunt) {
         options: options,
         files: {
           'dist/css/<%= pkg.name %>.css': 'scss/<%= pkg.name %>.scss'
+          ,'dist/css/styleguide.css': 'scss/styleguide.scss'
         }
       },
       extras: {
@@ -30,6 +31,7 @@ module.exports = function configureRubySass(grunt) {
         options: options,
         files: {
           'docs/assets/css/docs.min.css': 'docs/assets/scss/docs.scss'
+          ,'docs/assets/css/docs-styleguide.min.css': 'docs/assets/scss/docs-styleguide.scss'
         }
       }
     }
