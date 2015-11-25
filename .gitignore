@@ -60,4 +60,6 @@ node_modules
 
 # Do not publish /dist/ to Git
 dist
-docs/assets/css/docs-styleguide*
+docs/assets/css
+docs/dist/css
+docs/assets/js/docs.min.js
