@@ -11,6 +11,7 @@
     "test-infra",
     "sache.json",
     "package.json",
+    "!blueprint/package.json",
     "package.js",
     "Gruntfile.js",
     "Gemfile",
