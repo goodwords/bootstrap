@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "sample-styleguided-website",
+  "dependencies": {
+    "styleguide": "git://github.com/goodwords/bootstrap#v4-dev-goodwords"
+  }
+}
