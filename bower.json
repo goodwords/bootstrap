@@ -1,23 +1,5 @@
 {
-  "name": "bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "keywords": [
-    "css",
-    "js",
-    "sass",
-    "mobile-first",
-    "responsive",
-    "front-end",
-    "framework",
-    "web"
-  ],
-  "homepage": "http://getbootstrap.com",
-  "license": "MIT",
-  "moduleType": "globals",
-  "main": [
-    "scss/bootstrap.scss",
-    "dist/js/bootstrap.js"
-  ],
+  "name": "styleguide",
   "ignore": [
     "/.*",
     "_config.yml",
@@ -26,7 +8,14 @@
     "CONTRIBUTING.md",
     "docs",
     "js/tests",
-    "test-infra"
+    "test-infra",
+    "sache.json",
+    "package.json",
+    "package.js",
+    "Gruntfile.js",
+    "Gemfile",
+    "Gemfile.lock",
+    "grunt"
   ],
   "dependencies": {
     "jquery": "1.9.1 - 2"
