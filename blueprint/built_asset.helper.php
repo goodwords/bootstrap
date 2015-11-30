@@ -8,7 +8,7 @@ function built_asset($file)
     static $manifest = null;
 
     if (is_null($useManifest)) {
-        $manifestFile = public_path('/rev-manifest.json');
+        $manifestFile = app()->basePath('public/rev-manifest.json');
         $useManifest = is_file($manifestFile);
 
         if ($useManifest) {
@@ -17,11 +17,11 @@ function built_asset($file)
     }
 
     if (!$useManifest) {
-        return asset($file);
+        return app('url')->asset($file);
     }
 
     if (isset($manifest[$file])) {
-        return asset($manifest[$file]);
+        return app('url')->asset($manifest[$file]);
     }
 
     throw new Exception("File {$file} not defined in asset manifest.");
