@@ -1,8 +1,8 @@
 <?php
 
-if (! function_exists('built_asset')) {
+if (! function_exists('built_asset_path')) {
 
-function built_asset($file)
+function built_asset_path($file)
 {
     static $useManifest = null;
     static $manifest = null;
@@ -16,15 +16,16 @@ function built_asset($file)
         }
     }
 
-    if (!$useManifest) {
-        return app('url')->asset($file);
-    }
+    return ($useManifest && isset($manifest[$file])) ? $manifest[$file] : $file;
+}
 
-    if (isset($manifest[$file])) {
-        return app('url')->asset($manifest[$file]);
-    }
+}
 
-    throw new Exception("File {$file} not defined in asset manifest.");
+if (! function_exists('built_asset')) {
+
+function built_asset($file)
+{
+    return app('url')->asset(built_asset_path($file));
 }
 
 }
