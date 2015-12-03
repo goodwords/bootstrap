@@ -1,6 +1,8 @@
 process.env.DISABLE_NOTIFIER = true;
 var elixir = require('laravel-elixir');
-elixir.config.sourcemaps = elixir.config.production;
+elixir.config.sourcemaps = false;
+
+require('del')(['./public/assets' , './public/rev-manifest.json']);
 
 elixir(function(mix){
 
@@ -18,7 +20,6 @@ elixir(function(mix){
     );
 
     if (elixir.config.production) {
-
         mix.version(
             [
                   './public/assets/app.css'
@@ -26,14 +27,6 @@ elixir(function(mix){
             ],
             './public'
         );
-
-    } else {
-
-        require('del')([
-              './public/assets'
-            , './public/rev-manifest.json'
-        ]);
-
     }
 
 });
