@@ -8,7 +8,11 @@ function built_asset_path($file)
     static $manifest = null;
 
     if (is_null($useManifest)) {
-        $manifestFile = app()->basePath('public/rev-manifest.json');
+
+        $manifestFile = (function_exists('base_path'))
+            ? base_path('public/rev-manifest.json')
+            : app()->basePath('public/rev-manifest.json');
+
         $useManifest = is_file($manifestFile);
 
         if ($useManifest) {
