@@ -43,6 +43,20 @@ group: goodwords
 
 [Source: materialpalette.com](http://www.materialpalette.com/teal/pink)
 
+[Google Material Desing color specs](https://www.google.com/design/spec/style/color.html#color-color-palette)
+
+[IBM Design Langulage color guidelines](https://www.ibm.com/design/language/framework/visual/color)
+
+
+
+## Icons
+
+IBM Design Langulage icons: [view icons](https://www.ibm.com/design/language/resources/icon-library), [download at GitHub](https://github.com/IBM-Design/icons)
+
+Google Material Design icons: [view icons](https://design.google.com/icons/), [download at GitHub](https://github.com/google/material-design-icons)
+
+
+
 ## Brand colors
 
 <div class="row m-t-md">
